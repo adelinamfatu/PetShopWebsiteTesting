@@ -80,8 +80,7 @@ public class Animax {
             driver.findElement(By.xpath("//*[@id=\"header\"]/sticky-header/div[2]/div[2]/div/div[2]/div/a")).click();
 
             driver.findElement(By.xpath("//*[@id=\"header\"]/sticky-header/div[2]/div[2]/div/div[3]/a[2]")).click();
-
-
+            Thread.sleep(3000);
         } catch (Exception e) {
             System.out.println("Test failed: " + e.getMessage());
             Assert.fail("Test failed: " + e.getMessage());
