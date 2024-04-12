@@ -1,0 +1,66 @@
+[+] Web Application Security Report - Arachni Framework
+
+ [~] Report generated on: 2024-04-13 01:10:59 +0300
+ [~] Report false positives at: http://github.com/Arachni/arachni/issues
+
+ [+] System settings:
+ [~] ---------------
+ [~] Version:           1.5.1
+ [~] Seed:              c8a3cbd9ff410e249b125573e766edef
+ [~] Audit started on:  2024-04-13 00:48:13 +0300
+ [~] Audit finished on: 2024-04-13 01:10:59 +0300
+ [~] Runtime:           00:22:46
+
+ [~] URL:        https://pawsitivero.myshopify.com/
+ [~] User agent: Arachni/v1.5.1
+
+ [*] Audited elements:
+ [~] * Links
+ [~] * Forms
+ [~] * Cookies
+ [~] * XMLs
+ [~] * JSONs
+ [~] * UI inputs
+ [~] * UI forms
+
+ [*] Checks: xss
+
+ [~] ===========================
+
+ [+] 0 issues were detected.
+
+
+ [+] Plugin data:
+ [~] ---------------
+
+
+ [*] Health map
+ [~] ~~~~~~~~~~~~~~
+ [~] Description: Generates a simple list of safe/unsafe URLs.
+
+ [~] Legend:
+ [+] No issues
+ [-] Has issues
+
+[~] Total: 270
+ [+] Without issues: 270
+ [-] With issues: 0 ( 0% )
+
+ [~] Report saved at: C:/Users/Roxy Enescu/Desktop/arachni-1.5.1-0.5.12-windows-x86_64/bin/pawsitivero.myshopify.com 2024-04-13 01_10_59 +0300.afr [0.01MB]
+
+ [~] Audited 297 page snapshots.
+
+ [~] Duration: 00:22:46
+ [~] Processed 21869/21869 HTTP requests.
+ [~] -- 16.184 requests/second.
+ [~] Processed 113/113 browser jobs.
+ [~] -- 6.23 second/job.
+
+ [~] Currently auditing          https://pawsitivero.myshopify.com/collections/jucarii-cu-catnip
+ [~] Burst response time sum     6.514 seconds
+ [~] Burst response count        76
+ [~] Burst average response time 0.086 seconds
+ [~] Burst average               46.905 requests/second
+ [~] Timed-out requests          84
+ [~] Original max concurrency    20
+ [~] Throttled max concurrency   20
