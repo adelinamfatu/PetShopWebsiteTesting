@@ -46,11 +46,11 @@ public class Zooplus {
 
         // Introducerea adresei de e-mail
         WebElement emailInput = driver.findElement(By.id("username"));
-        emailInput.sendKeys("vircan.madalina@mail.com");
+        emailInput.sendKeys("stephenievlouvv@gmail.com");
 
         // Introducerea parolei
         WebElement passwordInput = driver.findElement(By.id("password"));
-        passwordInput.sendKeys("m@dalina1997");
+        passwordInput.sendKeys("D@buleni$789");
 
         // Trimiterea formularului prin clic pe butonul de login
         WebElement loginButton = driver.findElement(By.id("login-btn"));
