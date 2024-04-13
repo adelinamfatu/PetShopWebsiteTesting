@@ -41,10 +41,8 @@ public class MaxiPet {
       }
       WebElement brandLink = driver.findElement(By.xpath("//div[@class='vendor lightly-spaced-row']/a"));
       brandLink.click();
-
       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
       wait.until(ExpectedConditions.urlContains("/collections/vendors"));
-
     } catch (Exception e) {
       System.out.println("Test failed: " + e.getMessage());
       Assert.fail("Test failed: " + e.getMessage());
